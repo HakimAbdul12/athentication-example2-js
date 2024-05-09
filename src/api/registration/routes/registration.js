@@ -1,7 +1,7 @@
 module.exports = {
   routes: [
     {
-     method: 'POST',
+     method: 'GET',
      path: '/auth/local/registration',
      handler: 'registration.registeration',
      config: {
